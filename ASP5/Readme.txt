@@ -5,5 +5,8 @@ npm install -g yo
 //Start yeoman template generator tool
 yo aspnet
 
-//downloads all the .net dependencies from the project.json file
+//browse to the dir and download all the .net dependencies from the project.json file (might have to call "dnvm upgrade" first)
 dnu restore 
+
+//start the project from command line (Similar to F5 in VS)
+dnx web
