@@ -10,3 +10,8 @@ dnu restore
 
 //start the project from command line (Similar to F5 in VS)
 dnx web
+
+//Get list of items that can be generated 
+// (e.g. yo aspnet:MvcController Runner) would create a runner controller
+// (e.g. yo aspnet:WebApiController Runner2) would create a runner2 controller
+yo aspnet --help
